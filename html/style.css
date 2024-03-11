@@ -1,0 +1,286 @@
+header{
+
+    height:50px;
+  }
+
+
+
+
+.logotipe{
+    margin: 0px;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    z-index: 2
+}
+
+
+
+
+
+.title{
+    background-image: radial-gradient(at 100% 70%, rgba(112, 47, 108, 0.247) 10px, rgba(103, 173, 132, 0.199) 30%, #4d6e4a50 90%), url(fonlogo.png);;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif,optima; 
+    font-weight: 100;
+    text-align: end;
+    letter-spacing: 4px;
+    height: 40px;
+    padding-top: 40px;
+    padding-right: 30px;
+    margin:0px;
+    z-index: 9999
+   
+    
+}
+
+
+.hr-double {
+	margin: 20px 0;
+	padding: 0;
+	height: 1px;
+	border: none;
+	border-top: 1px solid #1f0020da;
+	border-bottom: 1px solid #012c08d8;
+    margin: 0px 0px 0px 0px;
+    z-index: 100;
+}
+
+
+
+
+p{
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif,optima; 
+    font-weight: 100;
+    text-align: end;
+    letter-spacing: 4px;
+    height: 40px;
+}
+
+span{
+color: #82fa9c;
+font-size:20px ;
+
+}
+
+/*img{
+    width: 100px;
+    height: 100px;
+    z-index: 2
+}
+*/
+body{
+    background-image: radial-gradient(at 0% 30%, rgba(126, 59, 119, 0.582) 10px, rgba(72, 100, 110, 0.404) 30%, #4d6e4a50 50%), url(fones.jpg);
+    /*background-image: radial-gradient(at 0% 30%, rgba(207, 122, 199, 0.63) 10px, rgba(130, 186, 206, 0.404) 30%, #8bc58550 50%), url(fones.jpg);*/
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+.sidenav {
+    margin-top:50px;
+    margin-bottom:50px;
+    margin: 0px 0px 100px 0px;
+    height: 100%; /* Полная высота */
+    width: 200px; /* ширина боковой панели */
+    position: fixed; /* фиксация боковой панели (остается на месте при прокрутке) */
+    top: 0; /* Оставайтся сверху */
+    left: 0; /* Оставайтся слева */
+    background-image: radial-gradient(at 25% 5%,rgba(207, 245, 209, 0.144) 5px, rgba(211, 146, 207, 0.247) 10px, rgba(103, 173, 132, 0.199) 30%, #4d6e4a50 90%), url(fonlogo.png);;
+    overflow-x: hidden; /* Отключить горизонтальную прокрутку */
+    padding-top: 80px;
+    border-right: 1px solid #012c08d8;
+    z-index: 0
+}
+
+/* Ссылки навигационного меню */
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;/* без подчёркивания */
+    font-size: 25px;
+    color: #fafdf9;
+    display: block;
+}
+
+/* При наведении курсора мыши на навигационные ссылки измените их цвет */
+.sidenav a:hover {
+    color: #ac00a49c;
+}
+
+/* Стиль содержимого страницы */
+.main {
+    margin-left: 160px; /* Такая же, как ширина боковой панели */
+    padding: 0px 10px;
+}
+
+/* На экранах меньшего размера, где высота меньше 450 пикселей, измените стиль боковой панели (меньше отступов и меньший размер шрифта). */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+
+
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+html,
+body {
+	height: 100%;
+}
+.wrapper {
+	position: relative;
+	min-height: 100%;
+}
+.content {
+	padding-bottom: 400px;
+}
+.footer {
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif,optima; 
+    font-weight: 100;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 400px;
+    overflow-x: hidden;
+    max-width: 100%;
+    /*border-top: 1px solid #1f0020da;*/
+    background: linear-gradient(130deg, rgb(206, 224, 218),rgb(110, 134, 134), rgba(136, 105, 132, 0.877),rgba(93, 119, 131, 0.87),rgba(33, 112, 33, 0.445));;
+}
+
+
+
+
+#podval{
+    /*margin: 20px 200px 20px 50px;*/
+    letter-spacing: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate;
+    border-spacing: 20px 1em;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+    
+	
+    
+
+#spisok{
+    list-style-type: none;
+    position: relative;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+
+#nazv{
+    font-size : 20px;
+    position: relative;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+#imz{
+    font-size: 10px;
+
+}
+.ssulka{
+    text-decoration: none;
+    color:#fafdf9;
+
+}
+.ssulka:hover {
+    color: #33e43cda;
+}
+
+
+/*КАРТОЧКИ ТОВОРОВ АААААААААА*/
+.cards{
+margin: 50px 0px 125px 270px;
+padding: 0;
+list-style-type: none;
+display: flex;
+overflow-x: hidden;
+
+
+
+}
+
+
+.cards__item:not(:last-child){
+    margin-right: 130px;/*применить для всех кроме последнего*/
+    
+}
+.card{
+    width:  400px;
+    background: linear-gradient(rgb(21, 255, 0), 20%, rgb(143, 90, 136));
+/*фон текста для всей карточки*/
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 100%;
+    border-radius: 10% 25%;
+    box-shadow: 12px 5px 2px 1px rgba(59, 35, 61, 0.2);
+    /*padding: 0px 0px 10px 0px;*/
+}
+.card_image{
+height: 250px;
+/*изображение*/
+
+}
+
+.card_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;/*изображение занимает всё доступное пространство*/
+    /*изображение*/
+}
+
+.card_content{
+    padding:  25px 25px 50px 25px ;
+}
+
+.card_title{
+    margin: 0;
+    margin-bottom: 15px;
+
+}
+
+.card_descr{
+    margin: 0;
+    margin-bottom: 15px
+}
+
+
+
+
+
+
+
+.onas{
+    margin: 50px 50px 50px 250px;
+    text-align:center;
+    font-family:'Times New Roman', Times, serif,optima; 
+    font-weight: 100;
+    color: #eefaeb;
+}
+
+.onass{
+    margin: 10px  0px 20px 0px ;
+    text-align: left;
+}
+
+#rfka{
+    height: 400px;
+}

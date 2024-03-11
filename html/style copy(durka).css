@@ -1,0 +1,115 @@
+header{
+
+    height:50px;
+  }
+
+
+
+
+.logotipe{
+    margin: 0px;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    z-index: 2
+}
+
+
+
+
+
+.title{
+    background-image: radial-gradient(at 0% 40%, rgba(231, 204, 229, 0.096) 10px, rgba(103, 173, 132, 0.199) 30%, #4d6e4a50 90%), url(fonlogo.png);;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif,optima; 
+    font-weight: 100;
+    text-align: end;
+    letter-spacing: 4px;
+    height: 40px;
+    padding-top: 40px;
+    padding-right: 30px;
+    margin:0px;
+    z-index: 9999
+   
+    
+}
+
+
+.hr-double {
+	margin: 20px 0;
+	padding: 0;
+	height: 1px;
+	border: none;
+	border-top: 1px solid #1f0020da;
+	border-bottom: 1px solid #012c08d8;
+    margin: 0px 0px 0px 0px;
+    z-index: 100;
+}
+
+
+
+
+p{
+    color: #ffffff;
+    margin: 50px 250px;
+    z-index: -2
+}
+span{
+color: #9e7aa3;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+    z-index: 2
+}
+
+body{
+    background-image: radial-gradient(at 0% 30%, rgba(126, 59, 119, 0.582) 10px, rgba(72, 100, 110, 0.404) 30%, #4d6e4a50 50%), url(fones.jpg);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+.sidenav {
+    margin-top:50px;
+    margin: 81px 0px 0px 0px;
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 200px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-image: radial-gradient(at 0% 30%, rgba(126, 59, 119, 0.582) 10px, rgba(72, 100, 110, 0.404) 30%, #4d6e4a50 50%), url(meina-28570602-3656160650.png);; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 80px;
+    z-index: 0
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f3fcf2;
+    display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #ac00a49c;
+}
+
+/* Style page content */
+.main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
